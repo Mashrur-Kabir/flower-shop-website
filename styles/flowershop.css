@@ -1,0 +1,58 @@
+/* For Body */
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+/* Header items */
+
+.header{
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 178px;
+    padding: 0 200px;
+}
+
+.head-content{
+    margin-top:78px;
+}
+
+.head-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+    width: 708px;
+    margin-bottom: 32px;
+}
+
+.head-text{
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+}
+
+.head-button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+
+.head-pic{
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+/* Our Beloved Flowers section */
+
+
