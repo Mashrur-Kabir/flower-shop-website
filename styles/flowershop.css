@@ -47,6 +47,10 @@ body{
     border: none;
 }
 
+.head-button:hover, .offer-btn:hover, .deal-btn:hover{
+    background: black;
+}
+
 .head-pic{
     width: 635px;
     height: 800px;
