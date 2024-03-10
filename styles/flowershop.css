@@ -37,7 +37,7 @@ body{
     width: 634px;
 }
 
-.head-button{
+.head-button, .offer-btn{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -83,7 +83,7 @@ body{
     justify-content: space-between;
 }
 
-.feature-flowers .flower-title{
+.flower-title{
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -126,11 +126,79 @@ body{
     margin: 67px 75px 0px 75px;
 }
 
-/* Delivery Info Section */
+/* Customer Service Section */
 
+.customer-service{
+    width: auto;
+    height: 320px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 240px 128px 240px;
+    padding: 85px 175px;
+}
 
+.img-title{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
 
+.flower-icon, .helpline-icon, .delivery-man-icon{
+    margin-bottom: 24px;
+}
 
+.deli-man-image, .flow-img, .helpline-img{
+    display: flex;
+    justify-content: center;
+}
+
+/* Offer Section */
+
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 620px;
+    padding: 100px 429px 100px 393px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.offer-content{
+    text-align: center;
+    align-items: center;
+}
+
+.offer-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.offer-title span{
+    color: #E55473;
+}
+
+.offer-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.offer-img{
+    width: 318px;
+    height: 420px;
+}
+
+/*  */
 
 
 
