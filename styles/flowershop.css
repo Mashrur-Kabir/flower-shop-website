@@ -37,7 +37,7 @@ body{
     width: 634px;
 }
 
-.head-button, .offer-btn{
+.head-button, .offer-btn, .deal-btn{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -59,7 +59,7 @@ body{
     padding: 0 240px;
 }
 
-.feature-title{
+.feature-title, .insta-title, .deal-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -68,7 +68,7 @@ body{
     margin-bottom: 24px;
 }
 
-.feature-text{
+.feature-text, .insta-text, .deal-text{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -167,6 +167,7 @@ body{
     padding: 100px 429px 100px 393px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
 }
 
 .offer-content{
@@ -198,7 +199,51 @@ body{
     height: 420px;
 }
 
-/*  */
+/* Instagram Section */
+
+.insta-images{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 240px 130px 240px;
+}
+
+/* Deals Section */
+
+.Deals{
+    height: 449px;
+    background: url('../Flower-Asset/Rectangle\ 9.png');
+    margin: 0 240px 135px 240px;
+    align-items: center;
+}
+
+
+#deal-input{
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 16px;
+    width: 700px;
+    height: 64px;
+    padding-left: 20px;
+    font-family: Lato;
+}
+
+.deal-form{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 121px;
+}
+
+.Deal-header{
+    padding-top: 80px;
+}
+
+/* Footer */
 
 
 
